@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Note App</string>
+    <string name="Add">Add Task</string>
+    <string name="message">Message</string>
+    <string name="theam">Theam</string>
+    <string name="noteheader">All Notes</string>
+    <string name="editNoteHeading">Edit Notes</string>
+    <string name="colour">Dark</string>
+
+
+</resources>

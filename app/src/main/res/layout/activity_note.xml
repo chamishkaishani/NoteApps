@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Note"
+    android:id="@+id/note_layout">
+
+
+    <TextView
+        android:id="@+id/noteheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/noteheader"
+        android:textColor="#F9A825"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/colourButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/colour"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/AddRecycleView"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="90dp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/baseline_post_add_24"
+        app:tint="@color/white"
+        android:backgroundTint="#2E7D32"/>
+
+
+
+</RelativeLayout>
